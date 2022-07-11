@@ -1,5 +1,5 @@
 PKG_NAME := pypi-cytoolz
-URL = https://files.pythonhosted.org/packages/b7/a9/9437d8e6a8ba420cb52832a4895614c61bf574bfb3978d5b0806b8ab95be/cytoolz-0.11.2.tar.gz
+URL = https://files.pythonhosted.org/packages/c1/75/e2e5cbe5309f14265d6c9ac543933a24b168416f87ae9275083be10759eb/cytoolz-0.12.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
