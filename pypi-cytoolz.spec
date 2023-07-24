@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-cytoolz
-Version  : 0.12.1
-Release  : 16
-URL      : https://files.pythonhosted.org/packages/da/89/66bac516a236af8375dd7af2b3032a210e222395670758da4b2439b37e40/cytoolz-0.12.1.tar.gz
-Source0  : https://files.pythonhosted.org/packages/da/89/66bac516a236af8375dd7af2b3032a210e222395670758da4b2439b37e40/cytoolz-0.12.1.tar.gz
+Version  : 0.12.2
+Release  : 17
+URL      : https://files.pythonhosted.org/packages/a0/61/c27e1e7007e3cc6989053956dfe078db84e164f22c7000b2ad1efc5b93b7/cytoolz-0.12.2.tar.gz
+Source0  : https://files.pythonhosted.org/packages/a0/61/c27e1e7007e3cc6989053956dfe078db84e164f22c7000b2ad1efc5b93b7/cytoolz-0.12.2.tar.gz
 Summary  : Cython implementation of Toolz: High performance functional utilities
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -58,10 +58,10 @@ python3 components for the pypi-cytoolz package.
 
 
 %prep
-%setup -q -n cytoolz-0.12.1
-cd %{_builddir}/cytoolz-0.12.1
+%setup -q -n cytoolz-0.12.2
+cd %{_builddir}/cytoolz-0.12.2
 pushd ..
-cp -a cytoolz-0.12.1 buildavx2
+cp -a cytoolz-0.12.2 buildavx2
 popd
 
 %build
@@ -69,7 +69,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1687190505
+export SOURCE_DATE_EPOCH=1690210761
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
